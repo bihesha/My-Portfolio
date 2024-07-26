@@ -11,7 +11,7 @@ const Details = ({ type, time, place, info }) => {
             <Lilcon reference = {ref}/>
             <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:'spring'}}>
                 <h3 className='text-2xl font-bold capitalize'>{type}</h3>
-                <span className='font-medium capitalize text-dark/75'>
+                <span className='font-medium capitalize text-dark/75 dark:text-light/75' >
                     {time} | {place}
                 </span>
                 <p className='w-full font-medium'>
@@ -36,7 +36,7 @@ const Education = () => {
             <h2 className='w-full mb-32 font-bold text-center text-8xl'>Education</h2>
 
             <div ref={ref} className='w-[75%] mx-auto relative'>
-                <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
+                <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light'/>
                 <ul className='flex flex-col items-start justify-between w-full ml-4'>
                     <Details    
                         type='Bsc (Hons) In Information Technology Specializing In Software Engineering'
