@@ -14,7 +14,7 @@ const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
 
     const motionValue = useMotionValue(0);
-    const springValue = useSpring(motionValue, { duration: 3000});
+    const springValue = useSpring(motionValue, { duration: 3000});       
     const isInView = useInView(ref, {once: true});
 
     useEffect(() => {
@@ -44,18 +44,18 @@ const about = () => {
         <TransitionEffect/>
         <main className='flex flex-col items-center justify-center w-full dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text='Passion Fuels Purpose!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
+                <AnimatedText text='Dedication Propels Objectives' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                        <p className='font-medium text-justify'> Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                            new and innovative ways to bring my clients' visions to life.
+                        <p className='font-medium text-justify'> Hi, I'm Bihesha Dilshan, I am currently studying software engineering at 
+                            Sri Lanka Institute of Information Technology and would like to pursue further studies in that field. I always 
+                            seek new and innovative ways to bring my clients' visions to life.
                         </p>
                         <p className='my-4 font-medium text-justify'> I believe that design is about more than just making things look pretty – it's about solving problems and 
                             creating intuitive, enjoyable experiences for users. 
                         </p>
-                        <p className='font-medium text-justify'> Whether I'm working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to 
+                        <p className='font-medium text-justify'> Whether I'm working on a website, mobile app, I bring my commitment to design excellence and user-centered thinking to 
                             every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                         </p>
                     </div>
@@ -68,16 +68,16 @@ const about = () => {
                     <div className='flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={50}/>+
+                                <AnimatedNumbers value={9}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>satisfied clients</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects Completed</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl'>
-                            <AnimatedNumbers value={40}/>+
+                            <AnimatedNumbers value={2}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>projects completed</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>On-going projects</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>

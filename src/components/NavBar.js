@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import {TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons'
+import {TwitterIcon, InstagramIcon, GithubIcon, LinkedInIcon, FacebookIcon, SunIcon, MoonIcon } from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -73,20 +73,20 @@ const NavBar = () => {
                     <Logo/>
                 </div>
                 <nav className='flex flex-wrap items-center justify-center'>
-                    <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3'>
+                    <motion.a href='https://x.com/BiheshaD' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3 rounded-full dark:bg-light'>
                         <TwitterIcon/>
                     </motion.a>
-                    <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
-                        <GithubIcon/>
-                    </motion.a>
-                    <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
+                    <motion.a href='https://www.linkedin.com/in/bihesha-dilshan-209305216/' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
                         <LinkedInIcon/>
                     </motion.a>
-                    <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full bg-light'>
-                        <PinterestIcon/>
+                    <motion.a href='https://github.com/bihesha' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
+                        <GithubIcon/>
                     </motion.a>
-                    <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3'>
-                        <DribbbleIcon/>
+                    <motion.a href='https://www.facebook.com/bihesha.dilshan.3' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full bg-light'>
+                        <FacebookIcon/>
+                    </motion.a>
+                    <motion.a href='https://www.instagram.com/_bihesha_99/' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 rounded-lg '>
+                        <InstagramIcon/>
                     </motion.a>
 
                     {/* dark mode */}
@@ -109,20 +109,20 @@ const NavBar = () => {
                     </nav>
 
                     <nav className='flex flex-wrap items-center justify-center mt-2'>
-                        <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3 sm:mx-1'>
+                        <motion.a href='https://x.com/BiheshaD' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3 rounded-full sm:mx-1 bg-light dark:bg-light'>
                             <TwitterIcon/>
                         </motion.a>
-                        <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full sm:mx-1 bg-light dark:bg-dark'>
-                            <GithubIcon/>
-                        </motion.a>
-                        <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1'>
+                        <motion.a href='https://www.linkedin.com/in/bihesha-dilshan-209305216/' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1'>
                             <LinkedInIcon/>
                         </motion.a>
-                        <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full sm:mx-1 bg-light'>
-                            <PinterestIcon/>
+                        <motion.a href='https://github.com/bihesha' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full sm:mx-1 bg-light dark:bg-dark'>
+                            <GithubIcon/>
                         </motion.a>
-                        <motion.a href='https://twitter.com' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 sm:mx-1'>
-                            <DribbbleIcon/>
+                        <motion.a href='https://www.facebook.com/bihesha.dilshan.3' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 rounded-full sm:mx-1 bg-light'>
+                            <FacebookIcon/>
+                        </motion.a>
+                        <motion.a href='https://www.instagram.com/_bihesha_99/' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 sm:mx-1'>
+                            <InstagramIcon/>
                         </motion.a>
 
                         {/* dark mode */}
