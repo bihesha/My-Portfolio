@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
 import Edu1 from '../../public/images/projects/edu1.png'
-import Galaxia from '../../public/images/projects/galaxia.png'
+import Galaxia from '../../public/images/projects/galaxia.PNG'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
