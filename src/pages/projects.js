@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import Edu1 from '../../public/images/projects/edu1.png'
+import Galaxia from '../../public/images/projects/galaxia.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -76,14 +78,14 @@ const projects = () => {
                   <div className='col-span-12'>
                     <FeaturedProject
                       title='Manage - Educational Platform for Online Learning'
-                      img={project1}
+                      img={Edu1}
                       summary='A full Backend and Frontend implementation of Manage which is a website where users can login as students or 
                       instructors. The students can view all the courses that are submitted by the instructors, they can enroll themselves 
                       to the course and for that they need to make the payment via Stripe. Once the payment is done, they will enrolled to 
                       the course after administrator approval. '
                       link='http://localhost:3001/'
                       github='https://github.com/bihesha/DS-Microservices-Project'
-                      type='Featured Project'
+                      type='MERN Stack | Tailwind CSS | Material UI'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
@@ -92,7 +94,7 @@ const projects = () => {
                       img={project1}
                       link='/'
                       github='https://github.com/bihesha/FITCRIB'
-                      type='Project - 1'
+                      type='MERN Stack | Python | Postman'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
@@ -101,7 +103,7 @@ const projects = () => {
                       img={project1}
                       link='/'
                       github='https://github.com/janchilling/Construction-CSSE'
-                      type='Project - 2'
+                      type='MERN Stack | React-Native'
                     />
                   </div>
 
@@ -114,16 +116,16 @@ const projects = () => {
                        while patients can take quizzes and book appointments.'
                       link='/'
                       github='https://github.com/bihesha/OptiVisionSPM'
-                      type='Featured Project'
+                      type='MERN Stack | Python'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                     <Project
                       title='Galaxia - Astronomy Management System'
-                      img={project1}
-                      link='/'
+                      img={Galaxia}
+                      link='https://galaxia-explorers.netlify.app/'
                       github='https://github.com/bihesha/Galaxia'
-                      type='Project - 3'
+                      type='React.js | NASA API | Tailwind CSS'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
@@ -132,7 +134,7 @@ const projects = () => {
                       img={project1}
                       link='/'
                       github='https://github.com/ManulaGunatilleke/EAD-FE'
-                      type='Project - 4'
+                      type='MERN Stack'
                     />
                   </div>
 
