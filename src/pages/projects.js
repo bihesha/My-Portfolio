@@ -88,50 +88,50 @@ const projects = () => {
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                     <Project
-                      title='Crypto Screener Application'
+                      title='FitCrib - Fitness Management System'
                       img={project1}
                       link='/'
-                      github='/'
+                      github='https://github.com/bihesha/FITCRIB'
                       type='Project - 1'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                     <Project
-                      title='Crypto Screener Application'
+                      title='MBKT Construction Management System'
                       img={project1}
                       link='/'
-                      github='/'
+                      github='https://github.com/janchilling/Construction-CSSE'
                       type='Project - 2'
                     />
                   </div>
 
                   <div className='col-span-12'>
                     <FeaturedProject
-                      title='Crypto Screener Application'
+                      title='OptiVision - Eye Care System'
                       img={project1}
-                      summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                      It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                      local currency.'
+                      summary='OptiVision is an eye care system for patients and opticians. It offers vision tests, glaucoma detection 
+                      via AI, appointment scheduling, and digital prescriptions. Opticians can analyze cataract scans and prescribe treatments,
+                       while patients can take quizzes and book appointments.'
                       link='/'
-                      github='/'
+                      github='https://github.com/bihesha/OptiVisionSPM'
                       type='Featured Project'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                     <Project
-                      title='Crypto Screener Application'
+                      title='Galaxia - Astronomy Management System'
                       img={project1}
                       link='/'
-                      github='/'
+                      github='https://github.com/bihesha/Galaxia'
                       type='Project - 3'
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                     <Project
-                      title='Crypto Screener Application'
+                      title='E-commerce Platform - Web Application Side'
                       img={project1}
                       link='/'
-                      github='/'
+                      github='https://github.com/ManulaGunatilleke/EAD-FE'
                       type='Project - 4'
                     />
                   </div>
