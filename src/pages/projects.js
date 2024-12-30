@@ -75,13 +75,14 @@ const projects = () => {
 
                   <div className='col-span-12'>
                     <FeaturedProject
-                      title='Crypto Screener Application'
+                      title='Manage - Educational Platform for Online Learning'
                       img={project1}
-                      summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                      It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                      local currency.'
-                      link='/'
-                      github='/'
+                      summary='A full Backend and Frontend implementation of Manage which is a website where users can login as students or 
+                      instructors. The students can view all the courses that are submitted by the instructors, they can enroll themselves 
+                      to the course and for that they need to make the payment via Stripe. Once the payment is done, they will enrolled to 
+                      the course after administrator approval. '
+                      link='http://localhost:3001/'
+                      github='https://github.com/bihesha/DS-Microservices-Project'
                       type='Featured Project'
                     />
                   </div>
