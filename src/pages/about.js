@@ -48,14 +48,14 @@ const about = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                        <p className='font-medium text-justify'> Hi, I'm Bihesha Dilshan, I am currently studying software engineering at 
+                        <p className='font-medium text-justify'> Hi, I&apos;m Bihesha Dilshan, I am currently studying software engineering at 
                             Sri Lanka Institute of Information Technology and would like to pursue further studies in that field. I always 
-                            seek new and innovative ways to bring my clients' visions to life.
+                            seek new and innovative ways to bring my clients visions to life.
                         </p>
-                        <p className='my-4 font-medium text-justify'> I believe that design is about more than just making things look pretty – it's about solving problems and 
+                        <p className='my-4 font-medium text-justify'> I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
                             creating intuitive, enjoyable experiences for users. 
                         </p>
-                        <p className='font-medium text-justify'> Whether I'm working on a website, mobile app, I bring my commitment to design excellence and user-centered thinking to 
+                        <p className='font-medium text-justify'> Whether I&apos;m working on a website, mobile app, I bring my commitment to design excellence and user-centered thinking to 
                             every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                         </p>
                     </div>
