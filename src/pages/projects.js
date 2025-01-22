@@ -153,7 +153,7 @@ const Project = ({ title, type, img, link, github, images, onImageClick }) => {
 const projects = () => {
 
   const [popupOpen, setPopupOpen] = useState(false);
-  const [popupImages, setPopupImages] = useState([]);
+  const [popupImages, setPopupImages] = useState([""]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleImageClick = (images, index = 0) => {
