@@ -7,7 +7,7 @@ import Image from 'next/image'
 import article1 from '../../public/images/articles/article1.PNG'
 import article2 from '../../public/images/articles/article2.PNG'
 import { motion, useMotionValue } from 'framer-motion'
-import article3 from '../../public/images/articles/create modal component in react using react portals.png'
+import article3 from '../../public/images/articles/r1.png'
 import article4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
 import article5 from '../../public/images/articles/smooth scrolling in reactjs.png'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -100,7 +100,7 @@ const articles = () => {
                 <ul>
                     <Article
                         title='OptiVision: Glaucoma and Eye Diseases Detecting System'
-                        date='Nov 29, 2023'
+                        date='Nov 29, 2023 | Research'
                         link='https://propulsiontechjournal.com/index.php/journal/article/view/2520'
                         img={article3}
                     />
