@@ -16,3 +16,8 @@ This portfolio is built with:
 ## Hosting
 This portfolio is deployed and hosted on **Netlify**, ensuring fast and reliable delivery. You can visit it using the link below:
 [Visit My Portfolio](https://bihesha.netlify.app/projects)
+
+## Contact
+Feel free to reach out to me if you have any questions or want to collaborate:
+Email - bihesha0822@gmail.com
+[Linkedin](https://www.linkedin.com/in/bihesha-dilshan-209305216/)
