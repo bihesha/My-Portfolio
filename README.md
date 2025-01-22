@@ -19,5 +19,5 @@ This portfolio is deployed and hosted on **Netlify**, ensuring fast and reliable
 
 ## Contact
 Feel free to reach out to me if you have any questions or want to collaborate:
-Email - bihesha0822@gmail.com
-[Linkedin](https://www.linkedin.com/in/bihesha-dilshan-209305216/)
+- **Email** - bihesha0822@gmail.com
+- **Linkedin** - [Linkedin](https://www.linkedin.com/in/bihesha-dilshan-209305216/)
