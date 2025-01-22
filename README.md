@@ -12,3 +12,7 @@ This portfolio is built with:
 - **Framework**: Next.js (React-based framework)
 - **Styling**: Tailwind CSS
 - **Hosting**: Netlify
+
+## Hosting
+This portfolio is deployed and hosted on **Netlify**, ensuring fast and reliable delivery. You can visit it using the link below:
+[Visit My Portfolio](https://bihesha.netlify.app/projects)
