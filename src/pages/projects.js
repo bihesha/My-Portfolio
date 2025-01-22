@@ -150,7 +150,7 @@ const Project = ({ title, type, img, link, github, images, onImageClick }) => {
   );
 };
 
-const projects = () => {
+const Projects = () => {
 
   const [popupOpen, setPopupOpen] = useState(false);
   const [popupImages, setPopupImages] = useState([""]);
@@ -262,4 +262,4 @@ const projects = () => {
   )
 }
 
-export default projects
+export default Projects;
