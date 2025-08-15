@@ -20,6 +20,16 @@ import mr3 from '../../public/images/projects/mr3.png'
 import ov1 from '../../public/images/projects/ov1.png'
 import ov2 from '../../public/images/projects/ov2.png'
 import ov3 from '../../public/images/projects/ov3.png'
+import cli1 from '../../public/images/projects/page1.jpg'
+import cli2 from '../../public/images/projects/page2.png'
+import cli3 from '../../public/images/projects/page3.png'
+import cli4 from '../../public/images/projects/page4.png'
+import cli5 from '../../public/images/projects/page5.png'
+import ps1 from '../../public/images/projects/p1.jpg'
+import ps2 from '../../public/images/projects/p2.png'
+import ps3 from '../../public/images/projects/p3.png'
+import ps4 from '../../public/images/projects/p4.png'
+import ps5 from '../../public/images/projects/p5.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -150,6 +160,35 @@ const Project = ({ title, type, img, link, github, images, onImageClick }) => {
   );
 };
 
+// Client Projects
+const Client_Project = ({ title, type, img, link, images, onImageClick }) => {
+  return (
+    <article className="relative flex flex-col items-center justify-center w-full p-6 border border-solid rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xs:p-4">
+      <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
+      <button onClick={() => onImageClick(images)} className="w-full overflow-hidden rounded-lg cursor-pointer">
+        <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }} />
+      </button>
+      <div className="flex flex-col items-start justify-between w-full mt-4">
+        <span className="text-xl font-medium text-primary dark:text-primaryDark lg:text-lg md:text-base">{type}</span>
+        <Link href={link} target="_blank" className="hover:underline underline-offset-2">
+          <h2 className="w-full my-2 text-3xl font-bold text-left lg:text-2xl">{title}</h2>
+        </Link>
+        <div className="flex w-full gap-5 mt-2">
+          <Link href={link} target="_blank" className="text-lg font-semibold underline md:text-base">
+            Visit
+          </Link>
+          <button
+            onClick={() => onImageClick(images)}
+            className="text-lg font-semibold underline mr-80 text-primary dark:text-primaryDark md:text-base"
+          >
+            See More
+          </button>
+        </div>
+      </div>
+    </article>
+  );
+};
+
 const Projects = () => {
 
   const [popupOpen, setPopupOpen] = useState(false);
@@ -178,6 +217,41 @@ const Projects = () => {
                 <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
 
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'> 
+
+                  {/* Client Projects Heading */}
+                  <div className='col-span-12'>
+                    <h2 className="text-5xl font-bold text-center text-primary dark:text-primaryDark sm:text-3xl">
+                      Client Projects
+                    </h2>
+                  </div>
+
+                  <div className='col-span-6 sm:col-span-12'>
+                    <Client_Project
+                      title='M.U.S.LK - Company Portfolio System'
+                      img={cli1}
+                      link='https://mus.lk/'
+                      type='HTML | Tailwind CSS | MUI | JavaScript | PHP'
+                      images={[cli2, cli3, cli4, cli5]}
+                      onImageClick={handleImageClick}
+                    />
+                  </div>
+                  <div className='col-span-6 sm:col-span-12'>
+                    <Client_Project
+                      title='TeslaPack - Company Portfolio System'
+                      img={ps1}
+                      link='https://www.teslapack.lk/'
+                      type='HTML | Tailwind CSS | PHP | JavaScript | MUI'
+                      images={[ps2, ps3, ps4, ps5]}
+                      onImageClick={handleImageClick}
+                    />
+                  </div>
+
+                  {/* Personal Projects Heading */}
+                  <div className='col-span-12'>
+                    <h2 className="text-5xl font-bold text-center text-primary dark:text-primaryDark sm:text-3xl">
+                      Personal Projects
+                    </h2>
+                  </div>
 
                   <div className='col-span-12'>
                     <FeaturedProject

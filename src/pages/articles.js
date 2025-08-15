@@ -7,9 +7,10 @@ import Image from 'next/image'
 import article1 from '../../public/images/articles/article1.PNG'
 import article2 from '../../public/images/articles/article2.PNG'
 import { motion, useMotionValue } from 'framer-motion'
-import article3 from '../../public/images/articles/r1.png'
-import article4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
-import article5 from '../../public/images/articles/smooth scrolling in reactjs.png'
+import article3 from '../../public/images/articles/article3.jpg'
+import article4 from '../../public/images/articles/r1.png'
+import article5 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
+import article6 from '../../public/images/articles/smooth scrolling in reactjs.png'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
@@ -99,40 +100,46 @@ const articles = () => {
                 <h2 className='w-full my-16 mt-32 text-4xl font-bold text-center'>Other Projects and Research Publications</h2>
                 <ul>
                     <Article
+                        title='Thulawa: Key-Aware Intra-Partition Parallelism extending Kafka Streams'
+                        date='Jun 20, 2025 | Final Research'
+                        link='https://drive.google.com/drive/folders/1L-z3dA0SgPVrFn0jjdyHocqXzW1Cw04D'
+                        img={article3}
+                    />
+                    <Article
                         title='OptiVision: Glaucoma and Eye Diseases Detecting System'
                         date='Nov 29, 2023 | Research'
                         link='https://propulsiontechjournal.com/index.php/journal/article/view/2520'
-                        img={article3}
+                        img={article4}
                     />
                     <Article
                         title='CashInPawn: Build A Mobile Application for economic crisis of Sri Lanka.'
                         date='Kotlin | Firebase'
                         link='https://github.com/bihesha/CashInPawn'
-                        img={article4}
+                        img={article5}
                     />
                     <Article
                         title='Online Apartment System: Built an apartment platform with user-friendly design.'
                         date='HTML | CSS | PHP'
                         link='https://github.com/bihesha/OnlineApartmentSystem'
-                        img={article5}
+                        img={article6}
                     />
                     <Article
                         title='BRIT Games: BRIT Games is an online platform for purchasing, playing games, and receiving support.'
                         date='Java | CSS'
                         link='https://github.com/bihesha/BRIT-Games'
-                        img={article3}
+                        img={article6}
                     />
                     <Article
                         title='CleanCircle: This app was built to collect garbage as a garbage collector using Google Maps.'
                         date='Kotlin | Firebase'
                         link='https://github.com/bihesha/CleanCircle'
-                        img={article3}
+                        img={article6}
                     />
                     <Article
                         title='Cart.io: This Mobile application is made for inventory management.'
                         date='Kotlin | Firebase'
                         link='https://github.com/bihesha/EAD_Mobile_New'
-                        img={article3}
+                        img={article6}
                     />
                 </ul>
             </Layout>

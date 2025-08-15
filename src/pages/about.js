@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic from '../../public/images/profile/developer-pic-2.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
@@ -48,9 +48,7 @@ const about = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                        <p className='font-medium text-justify'> Hi, I&apos;m Bihesha Dilshan, I am currently studying software engineering at 
-                            Sri Lanka Institute of Information Technology and would like to pursue further studies in that field. I always 
-                            seek new and innovative ways to bring my clients visions to life.
+                        <p className='font-medium text-justify'> I am a motivated Software Engineering professional currently completing my degree and awaiting graduation. With a strong academic foundation and hands-on experience, I specialize in developing robust and innovative solutions across multiple technologies. My expertise spans JavaScript, Java, React Native, C++, React.js, Next.js and Python, complemented by practical experience in Kubernetes deployments, Docker optimization and CI/CD pipelines.  I thrive in agile environments, enjoy solving complex challenges, and am committed to continuous learning and improvement. As a collaborative team player with strong problem-solving skills, I aim to deliver impactful solutions that drive value and innovation.
                         </p>
                         <p className='my-4 font-medium text-justify'> I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
                             creating intuitive, enjoyable experiences for users. 
@@ -68,7 +66,7 @@ const about = () => {
                     <div className='flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={9}/>+
+                                <AnimatedNumbers value={13}/>+
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects Completed</h2>
                         </div>
