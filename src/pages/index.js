@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-1.png';
+import profilePic from '../../public/images/profile/developer-pic-5.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
@@ -22,8 +22,15 @@ export default function Home() {
       <main className='flex items-center w-full min-h-screen text-dark dark:text-light'>
         <Layout className='pt-0 md:p-16 sm:p-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='flex justify-center w-1/2 md:w-full'>
-              <Image src={profilePic} alt='Bihesha' className='object-cover h-auto border-4 shadow-lg rounded-e-3xl w-96 border-dark dark:border-light lg:hidden md:inline-block md:w-56 md:h-56 sm:w-40 sm:h-40' priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'/>
+            <div className='flex justify-center w-1/2 md:w-full mb-0 md:mb-24'>
+              <Image
+                src={profilePic}
+                alt='Bihesha'
+                className='object-cover h-auto shadow-lg rounded-3xl border-4 border-dark dark:border-light
+                  w-96 max-w-full sm:w-72 xs:w-64 md:w-80 lg:w-96'
+                priority
+                sizes='(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 33vw'
+              />
             </div>
             <div className='flex flex-col items-center self-center w-1/2 lg:w-full lg:text-center'>
               <AnimatedText text='Hi...! Welcome to my creative space.' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
@@ -32,11 +39,11 @@ export default function Home() {
                 Explore my latest projects and other things.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href='/CV - Bihesha Dilshan.pdf' target={'_blank'}
+                <Link href='/Bihesha Dilshan - CV.pdf' target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light
                  hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>
                     Resume <LinkArrow className={'w-6 ml-1'}/></Link>
-                <Link href='mailto:abcd@gmail.com' target={'_blank'}
+                <Link href='mailto:bihesha0822@gmail.com' target={'_blank'}
                   className='ml-4 text-lg font-medium underline capitalize text-dark dark:text-light md:text-base'>Contact</Link>
               </div>
             </div>

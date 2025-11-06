@@ -40,7 +40,7 @@ const Education = () => {
                 <ul className='flex flex-col items-start justify-between w-full ml-4 xs:ml-2'>
                     <Details    
                         type='Bsc (Hons) In Information Technology Specializing In Software Engineering'
-                        time='2021 Present' place='SLIIT - Malabe'
+                        time='2021 - 2025' place='SLIIT - Malabe'
                         info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
                         Intelligence.'
                     />
